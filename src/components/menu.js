@@ -8,15 +8,24 @@ class Menu extends Component {
     return (
       <div className="App">
         <div className="row">
-            <div class = "topnav container">
-                <a href="#logo"><img src= {logo} alt="" width="100%"></img></a>
-                <input type="text" name="search" value="Search ....."></input>
-                <a href="#sign in"><h3>Log in / Sign Up</h3></a>
-                <a href="#list" ><img src= {list} alt=""></img></a>
+            <div class = "container-fluid topmenu">
+                <div className="col-md-3">
+                  <a href="#logo"><img src= {logo} alt="" width="75%"></img></a>
+                </div>
+                <div className=" search col-md-5 p-3 text-left align-middle">
+                  <input type="text" name="search" placeholder="Search"></input>
+                  <button type="button" class="btn btn-dark">
+                  Search
+                  </button>
+                </div>
+                <div className=" item col-md-4 ">
+                  <a className = "d-inline-flex align-middle mt-6" href="#sign in"><h4>Log in / Sign Up</h4></a>
+                  <a className = "d-inline-flex align-middle ml-5" href="#list" ><img src= {list} alt=""></img></a>
+                </div>
             </div>
         </div>
         <div className="row">
-            <div class = "container menu">
+            <div class = "container-fluid menu">
                 <a href="#hot">Indonesia vs Jepang</a>
                 <a href="#video">Video</a>
                 <a href="#humor">Humor</a>
