@@ -1,0 +1,12 @@
+.trending-title{
+    display: block;
+    width: auto;
+}
+.trending-title >div> a {
+    text-align: right;
+    text-decoration: none;
+}
+li > span{
+    margin: 5px;
+}
+
