@@ -31,10 +31,19 @@ class Menu extends Component {
                 <a href="#humor">Humor</a>
                 <a href="#News">News</a>
                 <a href="#sepak bola">Sepak Bola</a>
-                <a href="#ekonomi">ekonomi</a>
+                <a href="#ekonomi">Ekonomi</a>
                 <a href="#politik">Politik</a>
                 <a href="#Hiburan">Hiburan</a>
-                <a href="#more">More </a>
+                <div class="dropdown">
+                  <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    More
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Olahraga</a>
+                    <a class="dropdown-item" href="#">Teknologi</a>
+                    <a class="dropdown-item" href="#">Sosial</a>
+                  </div>
+                </div>
             </div>
         </div>
       </div>
