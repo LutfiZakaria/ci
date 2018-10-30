@@ -10,7 +10,7 @@ class Menu extends Component {
         <div className="row">
             <div class = "container-fluid topmenu">
                 <div className="col-md-3">
-                  <a href="#home">ALPHAKABAR</a>
+                  <a href="#home"><h1>ALPHAKABAR</h1></a>
                 </div>
                 <div className=" search col-md-5 p-3 text-left align-middle">
                   <input type="text" name="search" placeholder="Search"></input>
